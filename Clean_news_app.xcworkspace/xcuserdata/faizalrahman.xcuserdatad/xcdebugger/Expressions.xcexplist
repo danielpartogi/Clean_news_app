@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NewsListInteractor.getNews(request:):NewsListInteractor.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "newsList?.totalResults">
+            </PersistentString>
+            <PersistentString
+               value = "self.page * 20 &gt;= newsList?.totalResults ?? 0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WebViewViewController.viewDidLoad():WebViewViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NetworkCall.request&lt;A&gt;(completion:):NetworkCall.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SourceListInteractor.getArticles(request:):SourceListInteractor.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NewsListWorker.getNewsList(query:date:page:completion:):NewsListWorker.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " err.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsListWorker.getNewsList(query:date:page:completion:):NewsListWorker.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SourceListPresenter.presentSource(response:):SourceListPresenter.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NewsListWorker.getNewsList(query:source:date:page:completion:):NewsListWorker.swift">
+      </ContextState>
+      <ContextState
+         contextName = "NetworkCall.init(data:headers:url:method:encoder:):NetworkCall.swift">
+      </ContextState>
+      <ContextState
+         contextName = "NewsListWorker.getNewsList(query:source:date:page:completion:):NewsListWorker.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SourceListViewController.searchBarCancelButtonClicked(_:):SourceListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&#10;        router?.dataStore?.sources">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SourceListViewController.tableView(_:cellForRowAt:):SourceListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SourceListViewController.displaySources(viewModel:):SourceListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NetworkCall.request&lt;A&gt;(completion:):NetworkCall.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(data: response.data!, encoding: String.Encoding.utf8)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SourceListViewController.fetchArticle():SourceListViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
