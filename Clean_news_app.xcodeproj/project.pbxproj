@@ -12,14 +12,11 @@
 		FB2DD0902472EF6E007462AA /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD08F2472EF6E007462AA /* DateExtensions.swift */; };
 		FB2DD0922472EFE1007462AA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD0912472EFE1007462AA /* Enums.swift */; };
 		FB2DD094247399E3007462AA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD093247399E3007462AA /* UIViewExtensions.swift */; };
-		FB2DD0962473EA0C007462AA /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD0952473EA0C007462AA /* UIImageExtension.swift */; };
 		FB2DD0A02473FDDD007462AA /* WebViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09A2473FDDD007462AA /* WebViewPresenter.swift */; };
-		FB2DD0A12473FDDD007462AA /* WebViewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09B2473FDDD007462AA /* WebViewWorker.swift */; };
 		FB2DD0A22473FDDD007462AA /* WebViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09C2473FDDD007462AA /* WebViewRouter.swift */; };
 		FB2DD0A32473FDDD007462AA /* WebViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09D2473FDDD007462AA /* WebViewModels.swift */; };
 		FB2DD0A42473FDDD007462AA /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09E2473FDDD007462AA /* WebViewViewController.swift */; };
 		FB2DD0A52473FDDD007462AA /* WebViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD09F2473FDDD007462AA /* WebViewInteractor.swift */; };
-		FB2DD0A724742C10007462AA /* NewsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DD0A624742C10007462AA /* NewsError.swift */; };
 		FB317DCE24729EA7008DF421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB317DCD24729EA7008DF421 /* AppDelegate.swift */; };
 		FB317DD024729EA7008DF421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB317DCF24729EA7008DF421 /* SceneDelegate.swift */; };
 		FB317DD524729EA7008DF421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB317DD324729EA7008DF421 /* Main.storyboard */; };
@@ -80,14 +77,11 @@
 		FB2DD08F2472EF6E007462AA /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		FB2DD0912472EFE1007462AA /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		FB2DD093247399E3007462AA /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		FB2DD0952473EA0C007462AA /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		FB2DD09A2473FDDD007462AA /* WebViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPresenter.swift; sourceTree = "<group>"; };
-		FB2DD09B2473FDDD007462AA /* WebViewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewWorker.swift; sourceTree = "<group>"; };
 		FB2DD09C2473FDDD007462AA /* WebViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewRouter.swift; sourceTree = "<group>"; };
 		FB2DD09D2473FDDD007462AA /* WebViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModels.swift; sourceTree = "<group>"; };
 		FB2DD09E2473FDDD007462AA /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		FB2DD09F2473FDDD007462AA /* WebViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInteractor.swift; sourceTree = "<group>"; };
-		FB2DD0A624742C10007462AA /* NewsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsError.swift; sourceTree = "<group>"; };
 		FB317DCA24729EA7008DF421 /* Clean_news_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clean_news_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB317DCD24729EA7008DF421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB317DCF24729EA7008DF421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,7 +172,6 @@
 				FB2DD08F2472EF6E007462AA /* DateExtensions.swift */,
 				FB2DD0912472EFE1007462AA /* Enums.swift */,
 				FB2DD093247399E3007462AA /* UIViewExtensions.swift */,
-				FB2DD0952473EA0C007462AA /* UIImageExtension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -187,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				FB2DD09A2473FDDD007462AA /* WebViewPresenter.swift */,
-				FB2DD09B2473FDDD007462AA /* WebViewWorker.swift */,
 				FB2DD09C2473FDDD007462AA /* WebViewRouter.swift */,
 				FB2DD09D2473FDDD007462AA /* WebViewModels.swift */,
 				FB2DD09E2473FDDD007462AA /* WebViewViewController.swift */,
@@ -302,7 +294,6 @@
 				FB317E0D2472A931008DF421 /* Article.swift */,
 				FB317E112472AA67008DF421 /* SourceListModel.swift */,
 				FB317E132472AA73008DF421 /* Source.swift */,
-				FB2DD0A624742C10007462AA /* NewsError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -557,15 +548,12 @@
 				FB317E342472DAA4008DF421 /* SourceListViewController.swift in Sources */,
 				FB317DF924729FC7008DF421 /* NewsListModels.swift in Sources */,
 				FB317E0B2472A804008DF421 /* NewsListModel.swift in Sources */,
-				FB2DD0A724742C10007462AA /* NewsError.swift in Sources */,
 				FB2DD0A52473FDDD007462AA /* WebViewInteractor.swift in Sources */,
-				FB2DD0962473EA0C007462AA /* UIImageExtension.swift in Sources */,
 				FB317E242472B363008DF421 /* CategoryCollectionViewCell.swift in Sources */,
 				FB317DF624729FC7008DF421 /* NewsListPresenter.swift in Sources */,
 				FB317E082472A1AA008DF421 /* NetworkCall.swift in Sources */,
 				FB317DFA24729FC7008DF421 /* NewsListViewController.swift in Sources */,
 				FB2DD0A42473FDDD007462AA /* WebViewViewController.swift in Sources */,
-				FB2DD0A12473FDDD007462AA /* WebViewWorker.swift in Sources */,
 				FB317E1F2472AC42008DF421 /* CategoryListModels.swift in Sources */,
 				FB317E122472AA67008DF421 /* SourceListModel.swift in Sources */,
 				FB317E202472AC42008DF421 /* CategoryListViewController.swift in Sources */,
